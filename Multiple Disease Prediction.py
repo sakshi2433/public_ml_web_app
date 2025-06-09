@@ -9,11 +9,11 @@ import pickle
 import streamlit as st
 from streamlit_option_menu import option_menu
 
-diabetes_model= pickle.load(open('C:/Users/BIT/Desktop/ML/Multiple Disease Prediction Model/trained_model.sav','rb'))
+diabetes_model= pickle.load(open('trained_model.sav','rb'))
 
-heart_model= pickle.load(open('C:/Users/BIT/Desktop/ML/Multiple Disease Prediction Model/trained_heart_model.sav','rb'))
+heart_model= pickle.load(open('trained_heart_model.sav','rb'))
 
-park_model= pickle.load(open('C:/Users/BIT/Desktop/ML/Multiple Disease Prediction Model/trained_park_model.sav','rb'))
+park_model= pickle.load(open('trained_park_model.sav','rb'))
 
 with st.sidebar:
     
